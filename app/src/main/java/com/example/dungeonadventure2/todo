@@ -1,0 +1,35 @@
+.add loot method
+    random gold
+    add gold to inventory
+.add player dies
+    find and add new pic
+    stats?
+.add monster dies
+    find and add pic
+    next(loot)
+.add defend yourself
+    roll check
+    hp - attack
+.add playerAttackMonster();
+.add monsterDefendPlayer();
+.add monsterAttackPlayer();
+.add playerDefendMonster();
+
+
+fight start:
+---part---1---
+.rollCheckPlayerTurn()
+.if player win roll
+    playerAttackMonster();
+.else
+    monsterDefendPlayer();
+---part---2---
+rollCheckMonsterTurn()
+.if monster win roll
+    monsterAttackPlayer()
+.else
+    playerDefendMonster()
+
+
+
+//option to run away
